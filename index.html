@@ -1,537 +1,603 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1">
-<title>Alessandro Moraes - Software Engineer</title>
-<meta name="description" 
-content="Certified Java Programmer and Web Developer with Masters in Computer Science, developing software and solving problems for 15+ years. Passionate about coding, music and coffee." />
-<meta name="keywords" content="sydney, australia, java, spring, angular, javascript, jquery, rest, restful, developer, software engineer, php, agile, tdd, computer science, information visualisation, oracle, postgresql, mysql, linux, australia, sydney, adelaide"/>
-<meta name="robots" content="index, follow">
-<link rel="icon" href="favicon.png" type="image/png">
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css"> 
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
-<link href="css/animate.css" rel="stylesheet" type="text/css">
-<link href="css/imagelightbox.css" rel="stylesheet" type="text/css">
- 
-<!--[if lt IE 9]>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <title>Alessandro Moraes - Software Engineer</title>
+    <meta name="description"
+          content="Certified Java Programmer and Web Developer with Masters in Computer Science, developing software and solving problems for 15+ years. Passionate about coding, music and coffee."/>
+    <meta name="keywords"
+          content="sydney, australia, java, spring, angular, javascript, jquery, rest, restful, developer, software engineer, php, agile, tdd, computer science, information visualisation, oracle, postgresql, mysql, linux, australia, sydney, adelaide"/>
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/imagelightbox.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
     <script src="js/html5shiv.js"></script>
     <script src="js/html5element.js"></script>
-<![endif]-->
- 
+    <![endif]-->
+
 </head>
 <body>
 
 <!--Header_section-->
 <header id="header_wrapper">
-  <div class="container">
-    <div class="header_box">
-	  <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    <div class="container">
+        <div class="header_box">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle"
+                            data-toggle="collapse" data-target="#main-nav"><span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                                class="icon-bar"></span></button>
+                </div>
+                <div id="main-nav" class="collapse navbar-collapse navStyle">
+                    <ul class="nav navbar-nav" id="mainNav">
+                        <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+                        <li><a id="menuAboutMe" href="#aboutMe" class="scroll-link">About Me</a>
+                        </li>
+                        <li><a id="menuSkills" href="#skills" class="scroll-link">My Skills</a></li>
+                        <li><a id="menuExperience" href="#experience"
+                               class="scroll-link">Experience</a></li>
+                        <li><a id="menuEducation" href="#education"
+                               class="scroll-link">Education</a></li>
+                        <!--<li><a id="menuBlog" href="#"  class="scroll-link">Tech Blog</a></li>-->
+                        <li><a id="menuContact" href="#contact" class="scroll-link"
+                               id="linkContact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-	    <div id="main-nav" class="collapse navbar-collapse navStyle">
-			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-			  <li><a id="menuAboutMe" href="#aboutMe" class="scroll-link">About Me</a></li>
-			  <li><a id="menuSkills" href="#skills" class="scroll-link">My Skills</a></li>
-			  <li><a id="menuExperience" href="#experience" class="scroll-link">Experience</a></li>
-                          <li><a id="menuEducation" href="#education"  class="scroll-link">Education</a></li>
-			  <!--<li><a id="menuBlog" href="#"  class="scroll-link">Tech Blog</a></li>-->
-			  <li><a id="menuContact" href="#contact" class="scroll-link" id="linkContact">Contact</a></li>
-			</ul>
-      </div>
-	 </nav>
     </div>
-  </div>
 </header>
-<!--Header_section--> 
+<!--Header_section-->
 
 <!--Home_Section-->
 <section id="home" class="top_cont_outer">
-  <div class="home_wrapper">
-    <div class="container">
-      <div class="home_section">
-        <div class="row">
-          <div class="col-lg-5 col-sm-7">
-            <div class="top_left_cont zoomIn wow animated"> 
-              <h2><strong>Alessandro</strong> Moraes</h2>
-              <p>
-	            &#8226 Masters in <strong>Computer Science</strong><br/>
-                &#8226 Developing software and <strong>solving problems</strong> for 15+ years<br/>
-                &#8226 Passionate about <strong>Cloud</strong> & <strong>DevOps</strong><br>
-                &#8226 Certified <strong>Java Programmer</strong> & <strong>Web Developer</strong><br>
-               </p>
-              <a href="#" onclick="$('#menuSkills').click()" class="read_more2">Read more</a> </div>
-          </div>
-          <div class="col-lg-7 col-sm-5 row-centered">
-			<!-- img src="img/lego-avatar.png" class="zoomIn wow animated" alt="" /-->
-            <img src="img/handson.png" class="zoomIn wow animated" alt="" />
-		  </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--Hero_Section--> 
-
-<section id="aboutMe"><!--Aboutme-->
-<div class="inner_wrapper">
-  <div class="container">
-    <h2>About Me</h2>
-    <div class="inner_section">
-	<div class="row">
-        <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/sydney.jpg" class="img-circle delay-03s animated wow zoomIn" alt="Sydney, Australia"></div>
-        
-              
-      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
-        	<div class=" delay-01s animated fadeInDown wow animated">
-			<h3>Hi! I'm Alessandro.</h3><br/> 
-                        <p>
-                            I'm passionate about software development and I have been coding and delivering solutions for over 15 years.
-		    	    Facing new challenges on a daily basis and working together with talented people are what keep me loving what I do.   
-                        </p><br/>
-                        <p>
-                            My main areas of interest are <b>DevOps, Cloud Computing, Microservices and Information Visualisation</b>.
-                        </p><br/>
-                        <p>
-                            I also love traveling (who doesn't?), craftsmanship and I have a huge passion for classical music.
-			    I play Violin, <a href="img/cello.jpg"  data-imagelightbox="true">Cello</a> and Oboe.
-                            Learning how to play new instruments keep my mind sharp and allows me to express a lot of emotions through their 'voice'. You can hear me playing a one-man-quartet song bellow.
-                        </p>
-			<p style="padding:10px;">
-                        <audio controls>
-                        <source src="other/hornpluscellobyalessandro.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                        </audio>
-			</p>
-                        <p>At last but not least, I enjoy <a href="img/coffee.jpg" data-imagelightbox="true">coffee making</a>. Now, I would like to hear from you, so...</p>
-
-                        
+    <div class="home_wrapper">
+        <div class="container">
+            <div class="home_section">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-7">
+                        <div class="top_left_cont zoomIn wow animated">
+                            <h2><strong>Alessandro</strong> Moraes</h2>
+                            <p>
+                                &#8226 Masters in <strong>Computer Science</strong><br/>
+                                &#8226 Developing software and <strong>solving problems</strong> for
+                                15+ years<br/>
+                                &#8226 Passionate about <strong>Microservices</strong>, <strong>Cloud</strong>,
+                                <strong>DevOps</strong> & <strong>Infrastructure as
+                                Code</strong><br>
+                            </p>
+                            <a href="#" onclick="$('#menuSkills').click()" class="read_more2">Read
+                                more</a></div>
+                    </div>
+                    <div class="col-lg-7 col-sm-5 row-centered">
+                        <!-- img src="img/lego-avatar.png" class="zoomIn wow animated" alt="" /-->
+                        <img src="img/handson.png" class="zoomIn wow animated" alt=""/>
+                    </div>
                 </div>
-                <div class="work_bottom"> <a href="#" onclick="$('#linkContact').click()" class="contact_btn">Contact Me</a> </div>       
             </div>
         </div>
-      
-      <!--personal gallery-->
-
-      <div class="container">
-        <hr>
-        <div class="row">
-          <div class="row">
-              <div class="col-lg-1 col-sm-1 col-6"><a href="img/cello.jpg" data-imagelightbox="true" alt="My little daughter helping me to play the cello"><img src="img/cello-thumb.jpg" alt="My little daughter helping me to play the cello" class="img-responsive thumbnail"></a></div>
-              <!--<div class="col-lg-1 col-sm-1 col-6"><a href="img/eh-edited.jpg" data-imagelightbox="true" alt="Playing some music with my Cor Anglais"><img src="img/eh-edited-thumb.jpg" alt="Playing some music with my Cor Anglais" class="img-responsive thumbnail"></a></div>-->
-              <div class="col-lg-1 col-sm-1 col-6"><a href="img/coffee.jpg" data-imagelightbox="true" alt="Little Gabi, Mommy and Daddy morning mochas"><img src="img/coffee-thumb.jpg" alt="Little Gabi, Mommy and Daddy morning mochas" class="img-responsive thumbnail"></a></div>            
-          </div>
-        </div>
-      </div>
-      
-
-      <!--end of my personal gallery-->
-      
     </div>
-  </div> 
-  </div>
 </section>
-<!--Aboutus--> 
+<!--Hero_Section-->
+
+<section id="aboutMe"><!--Aboutme-->
+    <div class="inner_wrapper">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="inner_section">
+                <div class="row">
+                    <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img
+                            src="img/me-dolphin.png" class="img-circle delay-03s animated wow zoomIn"
+                            alt="Sydney, Australia"></div>
+
+
+                    <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+                        <div class=" delay-01s animated fadeInDown wow animated">
+                            <h3>Hi! I'm Alessandro.</h3><br/>
+                            <p>
+                                I'm passionate about software development and I have been coding and
+                                delivering solutions for over 15 years.
+                                Facing new challenges on a daily basis and working together with
+                                talented people is what keep me loving what I do.
+                            </p><br/>
+                            <p>
+                                My main areas of interest are <b>Microservices, DevOps, Cloud and
+                                Information Visualisation</b>.
+                            </p><br/>
+                            <p>
+                                I also love traveling (who doesn't?), building LEGO and I have a
+                                huge passion for classical music.
+                                Being a classical musician myself, I play with Violin, Cello and
+                                Oboe and enjoy being part of music ensembles and community
+                                orchestras.
+                                You can hear me playing a one-man-quartet song bellow.
+                            </p>
+                            <p style="padding:10px;">
+                                <audio controls>
+                                    <source src="other/hornpluscellobyalessandro.mp3"
+                                            type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </p>
+                            <p>At last but not least, I enjoy making coffee and fresh pasta. Now, I
+                                would like to hear from you, so...</p>
+
+
+                        </div>
+                        <div class="work_bottom"><a href="#" onclick="$('#linkContact').click()"
+                                                    class="contact_btn">Contact Me</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Aboutus-->
 
 
 <!--skills-->
-<section  id="skills">
-  <div class="container">
-    <h2>My Skills</h2>
-    <div class="skills_wrapper">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="skills_block borderRight">
-            <div class="skills_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-coffee"></i></span> </div>
-            <h3 class="animated fadeInUp wow">Java & Programming</h3>
-            <p class="animated fadeInDown wow">
-		&#8226 Java: 15+ years of experience<br/>
-   		&#8226 Oracle Certified Programmer (Java 6) & Web Developer (Java EE 6)<br/>
-		&#8226 Strong Core Java and OOP knowledge<br/>
-		&#8226 Frameworks and tools: Spring Boot, Spring Cloud, Spring, Java EE, JPA, Hibernate, Jersey, iReport, JUnit, JMeter, Protobuf, Lucene<br/>
-		&#8226 Web Services: RESTful and SOAP<br/>
-		&#8226 CI/CD: Maven, Git, SVN, CircleCI and Bamboo<br/>
-	  	&#8226 PHP: 5 years of experience<br/>
-		&#8226 Frameworks: Symphony, Twig and Doctrine<br/>
-	  	&#8226 <a href="https://github.com/amoraes" target="_blank">My GitHub page</a>
-	    </p>
-          </div>
+<section id="skills">
+    <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills_wrapper">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="skills_block borderRight">
+                        <div class="skills_icon delay-03s animated wow  zoomIn"><span><i
+                                class="fa fa-coffee"></i></span></div>
+                        <h3 class="animated fadeInUp wow">Java & Programming</h3>
+                        <p class="animated fadeInDown wow">
+                            &#8226 Java: 15+ years of experience<br/>
+                            &#8226 Oracle Certified Programmer & Web Developer<br/>
+                            &#8226 Strong Core Java and Object Oriented Programming knowledge<br/>
+                            &#8226 Frameworks and tools: Spring Boot, Spring Cloud, Spring AI,
+                            Spring, Java EE, JPA, Hibernate, Jersey, iReport, JUnit, JMeter,
+                            Protobuf, Lucene<br/>
+                            &#8226 Web Services: RESTful, SOAP, WebSockets, STOMP<br/>
+                            &#8226 CI/CD: Maven, Git, CircleCI and Bamboo<br/>
+                            &#8226 PHP: 5 years of experience<br/>
+                            &#8226 Frameworks: Symphony, Twig and Doctrine<br/>
+                            &#8226 <a href="https://github.com/amoraes" target="_blank">My GitHub
+                            page</a>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 borderRight">
+                    <div class="skills_block">
+                        <div class="skills_icon icon2  delay-03s animated wow zoomIn"><span><i
+                                class="fa fa-cloud"></i></span></div>
+                        <h3 class="animated fadeInUp wow">Cloud & Infrastructure</h3>
+                        <p class="animated fadeInDown wow">
+                            &#8226 AWS: 8 years of experience<br/>
+                            &#8226 EC2, ECS, EFS, S3, SQS, Lambda, SNS, Bedrock, ElastiCache,
+                            DynamoDB, RDS, CloudWatch, CloudFormation, AWS CDK<br/>
+                            &#8226 Docker<br/>
+                            &#8226 Advanced Linux knowledge<br/>
+                            &#8226 Tomcat advanced features like clustering and farm deployment<br/>
+                            &#8226 Monitoring tools: Zipkin, Vizceral, New Relic, Spring Boot
+                            Admin<br/>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 borderRight">
+                    <div class="skills_block">
+                        <div class="skills_icon delay-03s animated wow  zoomIn"><span><i
+                                class="fa fa-database"></i></span></div>
+                        <h3 class="animated fadeInUp wow">Architecture & Solution Design</h3>
+                        <p class="animated fadeInDown wow">
+                            &#8226 Strong knowledge in microservices architecture<br/>
+                            &#8226 Design patterns: Client-side Load Balancers, Circuit Breakers, Service Discovery, Caching, Configuration, Gateway, Rate Limiting<br/>
+                            &#8226 Implemented multiple applications based on Spring Cloud: Eureka, Config Server, Spring Cloud Gateway and Zipkin <br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row borderTop">
+
+                <div class="col-lg-4 mrgTop borderRight">
+                    <div class="skills_block">
+                        <div class="skills_icon delay-03s animated wow  zoomIn"><span><i
+                                class="fa fa-database"></i></span></div>
+                        <h3 class="animated fadeInUp wow">Databases</h3>
+                        <p class="animated fadeInDown wow">
+                            &#8226 Strong skills in relational database modelling<br/>
+                            &#8226 Advanced SQL knowledge<br/>
+                            &#8226 Relational databases: PostgreSQL, MySQL and Oracle<br/>
+                            &#8226 NoSQL: MongoDB<br/>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 mrgTop">
+                    <div class="skills_block borderRight">
+                        <div class="skills_icon icon2  delay-03s animated wow zoomIn"><span><i
+                                class="fa fa-html5"></i></span></div>
+                        <h3 class="animated fadeInUp wow">Web & Front-end</h3>
+                        <p class="animated fadeInDown wow">
+                            &#8226 Languages: Javascript, TypeScript, HTML and CSS<br/>
+                            &#8226 Frameworks: AngularJS, Angular and JQuery<br/>
+                            &#8226 UI libraries: Angular Material and JQueryUI <br/>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mrgTop">
+                    <div class="skills_block">
+                        <div class="skills_icon icon3  delay-03s animated wow zoomIn"><span><i
+                                class="fa fa-users"></i></span></div>
+                        <h3 class="animated fadeInUp wow">Soft Skills</h3>
+                        <p class="animated fadeInDown wow">
+                            &#8226 Curiosity: passionate about learning new things (and not only
+                            tech)<br/>
+                            &#8226 Teamwork: love to share knowledge and work together<br/>
+                            &#8226 Analytical mindset: strong ability to solve complex problems<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-          <div class="col-lg-4 borderRight">
-              <div class="skills_block">
-                  <div class="skills_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-cloud"></i></span> </div>
-                  <h3 class="animated fadeInUp wow">Cloud & Infrastructure</h3>
-                  <p class="animated fadeInDown wow">
-                      &#8226 AWS: 4 years of experience<br/>
-                      &#8226 EC2, ECS, EFS, S3, SQS, Lambda, SNS, ElastiCache, DynamoDB, RDS, CloudWatch, CloudFormation, AWS CDK<br/>
-                      &#8226 Docker<br/>
-                      &#8226 Advanced Linux skills<br/>
-                      &#8226 Tomcat 7+ including advanced features like clustering and farm deployment<br/>
-                      &#8226 Monitoring tools: Zipkin, Vizceral, Spring Boot Admin<br/>
-                  </p>
-              </div>
-          </div>
-
-	<div class="col-lg-4 borderRight">
-          <div class="skills_block">
-          <div class="skills_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-database"></i></span> </div>
-              <h3 class="animated fadeInUp wow">Databases</h3>
-              <p class="animated fadeInDown wow">
-                  &#8226 Strong skills in relational database modelling<br/>
-                  &#8226 Advanced SQL knowledge<br/>
-                  &#8226 Relational databases: PostgreSQL, MySQL and Oracle<br/>
-                  &#8226 NoSQL: MongoDB<br/>
-              </p>
-          </div>
+        <div class="row borderTop" id="certs">
+            <h3>Certifications</h3>
+            <img src="img/cert-prog.png"
+                 alt="Oracle Certified Professional Java SE 6 Programmer - OCJP">
+            <img src="img/cert-web.png"
+                 alt="Oracle Certified Expert Java EE 6 Web Component Developer - OCEJWCD">
         </div>
-      </div>
-
-
-
-        <div class="row borderTop">
-
-        <div class="col-lg-4 mrgTop">
-          <div class="skills_block borderRight">
-            <div class="skills_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-android"></i></span> </div>
-            <h3 class="animated fadeInUp wow">Mobile</h3>
-            <p class="animated fadeInDown wow">
-		&#8226 Android Native 4.0+ (API 16+)<br/>
-		&#8226 Frameworks: Ionic, Cordova and LibGDX<br/>
-		&#8226 Some apps published with more than 150,000 downloads combined (<a href="https://play.google.com/store/apps/dev?id=4786038586518516876" target="_blank">Play Store</a>)<br/>
-	    </p>
-          </div>
-        </div>
-        
-
-        <div class="col-lg-4 mrgTop">
-          <div class="skills_block borderRight">
-              <div class="skills_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-html5"></i></span> </div>
-              <h3 class="animated fadeInUp wow">Web & Front-end</h3>
-              <p class="animated fadeInDown wow">
-                  &#8226 Languages: Javascript, TypeScript, HTML5 and CSS3<br/>
-                  &#8226 Frameworks: AngularJS, Angular and JQuery<br/>
-                  &#8226 UI libraries: Angular Material and JQueryUI <br/>
-              </p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mrgTop">
-          <div class="skills_block">
-            <div class="skills_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-users"></i></span> </div>
-            <h3 class="animated fadeInUp wow">Soft Skills</h3>
-            <p class="animated fadeInDown wow">
-		&#8226 Curiosity: passionate about learning new things (and not only tech)<br/>
-		&#8226 Teamwork: love to share knowledge and work together<br/>
-		&#8226 Analytical mindset: strong ability to solve problems<br/>		
-	    </p>
-          </div>
-        </div>
-      </div>
+        <div class="work_bottom"><a href="https://www.linkedin.com/in/alessandrocmoraes"
+                                    target="_blank" class="contact_btn ">My LinkedIn</a></div>
     </div>
-    <div class="row borderTop" id="certs">
-      <h3>Certifications</h3>
-      <img src="img/cert-prog.png" alt="Oracle Certified Professional Java SE 6 Programmer - OCJP">
-      <img src="img/cert-web.png" alt="Oracle Certified Expert Java EE 6 Web Component Developer - OCEJWCD">
-    </div>
-	<div class="work_bottom"> <a href="https://www.linkedin.com/in/alessandrocmoraes" target="_blank" class="contact_btn ">My LinkedIn</a> </div>   
-  </div>
 </section>
 <!--skills-->
 
 
 <section class="page_section experience" id="experience"><!--main-section experience-start-->
-  <div class="container">
-    <h2>Professional Experience</h2>
-      <div class="experience_section clearfix">
-          <div class="experience_area">
-              <div class="experience_box wow fadeInDown delay-03s">
-                  <img src="img/logo-infomedia.jpg" alt="Infomedia Ltd">
+    <div class="container">
+        <h2>Professional Experience</h2>
+        <div class="experience_section clearfix">
+            <div class="experience_area">
+                <div class="experience_box wow fadeInDown delay-03s">
+                    <img src="img/logo-infomedia.jpg" alt="Infomedia Ltd">
 
-              </div>
-              <h4 class="wow fadeInDown delay-03s">Sydney, Australia</h4>
-              <span class="wow fadeInDown delay-03s">Jul, 2019 - To date</span>
-              <p class="wow fadeInDown delay-03s"></p>
-          </div>
-          <div class="experience_details">
-              <h3 class="wow fadeInDown delay-03s">Technical Lead</h3>
-              <p class="wow fadeInDown delay-03s">
-                  &#8226 Software development for the automotive parts industry<br/>
-                  &#8226 Full infrastructure automation using AWS CDK<br/>
-                  &#8226 CI/CD using CircleCI + AWS CDK including automatic Blue/Green deployment, versioning and rollback<br/>
-                  &#8226 AWS technologies used: EC2, ECS, ECR, EFS, S3, Lambda, SQS, SNS, CloudWatch, DynamoDB, RDS, ElastiCache, CloudFormation<br/>
-                  &#8226 Java microservices performance tuning using JVM profiling and caching strategies <br/>
-                  &#8226 Multiple tools implemented for monitoring: Zipkin, Vizceral, Spring Boot Admin, Redis Insight and Redis Memory Analyzer, custom CloudWatch metrics<br/>
+                </div>
+                <h4 class="wow fadeInDown delay-03s">Sydney, Australia</h4>
+                <span class="wow fadeInDown delay-03s">Jul, 2019 - To date</span>
+                <p class="wow fadeInDown delay-03s"></p>
+            </div>
+            <div class="experience_details">
+                <h3 class="wow fadeInDown delay-03s">Technical Lead</h3>
+                <p class="wow fadeInDown delay-03s">
+                    &#8226 Software development for the automotive parts industry<br/>
+                    &#8226 Full infrastructure automation using AWS CDK<br/>
+                    &#8226 CI/CD using CircleCI + AWS CDK including automatic Blue/Green deployment,
+                    versioning and rollback<br/>
+                    &#8226 AWS technologies used: EC2, ECS, ECR, EFS, S3, Lambda, SQS, SNS,
+                    CloudWatch, DynamoDB, RDS, ElastiCache, CloudFormation<br/>
+                    &#8226 Java microservices performance tuning using JVM profiling and caching
+                    strategies <br/>
+                    &#8226 Multiple tools implemented for monitoring: Zipkin, Vizceral, Spring Boot
+                    Admin, Redis Insight and Redis Memory Analyzer, custom CloudWatch metrics<br/>
 
 
-                  <br/>
-                  <strong>Some projects and achievements:</strong><br/>
-                  &#8226 Led the design and implementation of a new microservices architecture using Spring Boot + Spring Cloud that massively
-                  improved the productivity of individual squads working on a new generation of Infomedia's parts catalog SaaS<br/>
-                  &#8226 Successfully delivered a new generation global parts catalog SaaS for multiple brands, including Nissan, Honda, Ford, Toyota, KIA and Hyundai<br/>
-              </p>
-          </div>
-      </div>
-
-	<div class="experience_section clearfix">
-      <div class="experience_area">
-        <div class="experience_box wow fadeInDown delay-03s">
-          <img src="img/logo-infomedia.jpg" alt="Infomedia Ltd">
-          
+                    <br/>
+                    <strong>Some projects and achievements:</strong><br/>
+                    &#8226 Led the design and implementation of a new microservices architecture
+                    using Spring Boot + Spring Cloud that massively
+                    improved the productivity of individual squads working on a new generation of
+                    Infomedia's parts catalog SaaS<br/>
+                    &#8226 Successfully delivered a new generation global parts catalog SaaS for
+                    multiple brands, including Nissan, Honda, Ford, Toyota, KIA and Hyundai<br/>
+                </p>
+            </div>
         </div>
-        <h4 class="wow fadeInDown delay-03s">Sydney, Australia</h4>
-        <span class="wow fadeInDown delay-03s">Mar, 2017 - Jul 2019</span>
-        <p class="wow fadeInDown delay-03s"></p>
-      </div>
-      <div class="experience_details">
-        <h3 class="wow fadeInDown delay-03s">Senior Developer</h3>
-        <p class="wow fadeInDown delay-03s">
-            &#8226 Software development for the automotive parts industry<br/>
-            &#8226 Systems integration using RESTful APIs<br/>
-            &#8226 Technologies used include: Java, MongoDB, AWS (EC2, Lambda, SQS, SNS, S3)<br/><br/>
 
-            <strong>Some projects and achievements:</strong><br/>
-            &#8226 Above & Beyond individual recognition for a milestone achieved before the deadline with a high
-            quality delivery and also for helping other team members to achieve their goals<br/>
-            &#8226 Successfully delivered a <b>global</b> parts catalog SaaS for Nissan Motors<br/>
-            &#8226 Integrated three critical Nissan systems with Infomedia parts catalog SaaS<br/>
-        </p>
-      </div>
-    </div>
-	
-    <div class="experience_section clearfix">
-      <div class="experience_area">
-        <div class="experience_box wow fadeInDown delay-03s">
-          <img src="img/logo-unesp.png" alt="UNESP">
-          
+        <div class="experience_section clearfix">
+            <div class="experience_area">
+                <div class="experience_box wow fadeInDown delay-03s">
+                    <img src="img/logo-infomedia.jpg" alt="Infomedia Ltd">
+
+                </div>
+                <h4 class="wow fadeInDown delay-03s">Sydney, Australia</h4>
+                <span class="wow fadeInDown delay-03s">Mar, 2017 - Jul 2019</span>
+                <p class="wow fadeInDown delay-03s"></p>
+            </div>
+            <div class="experience_details">
+                <h3 class="wow fadeInDown delay-03s">Senior Developer</h3>
+                <p class="wow fadeInDown delay-03s">
+                    &#8226 Software development for the automotive parts industry<br/>
+                    &#8226 Systems integration using RESTful APIs<br/>
+                    &#8226 Technologies used include: Java, MongoDB, AWS (EC2, Lambda, SQS, SNS, S3)<br/><br/>
+
+                    <strong>Some projects and achievements:</strong><br/>
+                    &#8226 Above & Beyond individual recognition for a milestone achieved before the
+                    deadline with a high
+                    quality delivery and also for helping other team members to achieve their
+                    goals<br/>
+                    &#8226 Successfully delivered a <b>global</b> parts catalog SaaS for Nissan
+                    Motors<br/>
+                    &#8226 Integrated three critical Nissan systems with Infomedia parts catalog
+                    SaaS<br/>
+                </p>
+            </div>
         </div>
-        <h4 class="wow fadeInDown delay-03s">Informatics Technical Service</h4>
-        <span class="wow fadeInDown delay-03s">Jan, 2009 - Feb, 2017</span>
-        <p class="wow fadeInDown delay-03s"></p>
-      </div>
-      <div class="experience_details">
-        <h3 class="wow fadeInDown delay-03s">Technical Lead</h3>
-        <p class="wow fadeInDown delay-03s">
-	&#8226 Software development using Java technologies<br/>
-	&#8226 Systems integration using RESTful and SOAP services<br/>	
-	&#8226 Staff training in Object Oriented Programming, Java and web development<br/>
-	&#8226 Application deployment and infrastructure management<br/>
-	<br/>
-	<strong>Some projects and achievements:</strong><br/> 
-	&#8226 Produced substantial contributions to some of the most important software developed in the organization over the last years as full-stack developer and team leader in many projects using Java frameworks such as Spring and J2EE.<br/>
-	&#8226 Led the development of a web portal and authorization solution based on OAuth 2.0 and fully integrated with an LDAP database designed to unify the access to all systems of the company in replacement to three different solutions used before, combining more than 170.000 users. The deadline was very short but the team managed to accomplish it in time despite all the new technology applied in this project.<br/>
-	&#8226 Integrated the two largest and mostly used software of the company through RESTful web services without impacting other client systems and end users (130.000+).<br/>
-	&#8226 Designed and developed an Order, Payment and Warehouse Management System which improved the workflow and allowed the organization to cut many unnecessary expenses.<br/>
-	&#8226 Pioneered the use of RESTful web services and Test Driven Development in the company.<br/>
-	&#8226 Implemented a high availability solution combining Apache, Tomcat clustering over VPN and PostgreSQL replication across multiple sites using Slony. This solution also managed multiple Tomcat instances allowing software isolation and has significantly increased systems' uptime.<br/>
-	&#8226 Created learning materials and trained over 30 IT staff members in Object Oriented Programming, Java and web applications development.<br/>
-	</p>
-      </div>
-    </div>
 
-    <div class="experience_section clearfix">
-      <div class="experience_area">
-        <div class="experience_box wow fadeInDown delay-03s">
-          <img src="img/logo-unesp.png" alt="UNESP">
-          
+        <div class="experience_section clearfix">
+            <div class="experience_area">
+                <div class="experience_box wow fadeInDown delay-03s">
+                    <img src="img/logo-unesp.png" alt="UNESP">
+
+                </div>
+                <h4 class="wow fadeInDown delay-03s">Informatics Technical Service</h4>
+                <span class="wow fadeInDown delay-03s">Jan, 2009 - Feb, 2017</span>
+                <p class="wow fadeInDown delay-03s"></p>
+            </div>
+            <div class="experience_details">
+                <h3 class="wow fadeInDown delay-03s">Technical Lead</h3>
+                <p class="wow fadeInDown delay-03s">
+                    &#8226 Software development using Java technologies<br/>
+                    &#8226 Systems integration using RESTful and SOAP services<br/>
+                    &#8226 Staff training in Object Oriented Programming, Java and web
+                    development<br/>
+                    &#8226 Application deployment and infrastructure management<br/>
+                    <br/>
+                    <strong>Some projects and achievements:</strong><br/>
+                    &#8226 Produced substantial contributions to some of the most important software
+                    developed in the organization over the last years as full-stack developer and
+                    team leader in many projects using Java frameworks such as Spring and J2EE.<br/>
+                    &#8226 Led the development of a web portal and authorization solution based on
+                    OAuth 2.0 and fully integrated with an LDAP database designed to unify the
+                    access to all systems of the company in replacement to three different solutions
+                    used before, combining more than 170.000 users. The deadline was very short but
+                    the team managed to accomplish it in time despite all the new technology applied
+                    in this project.<br/>
+                    &#8226 Integrated the two largest and mostly used software of the company
+                    through RESTful web services without impacting other client systems and end
+                    users (130.000+).<br/>
+                    &#8226 Designed and developed an Order, Payment and Warehouse Management System
+                    which improved the workflow and allowed the organization to cut many unnecessary
+                    expenses.<br/>
+                    &#8226 Pioneered the use of RESTful web services and Test Driven Development in
+                    the company.<br/>
+                    &#8226 Implemented a high availability solution combining Apache, Tomcat
+                    clustering over VPN and PostgreSQL replication across multiple sites using
+                    Slony. This solution also managed multiple Tomcat instances allowing software
+                    isolation and has significantly increased systems' uptime.<br/>
+                    &#8226 Created learning materials and trained over 30 IT staff members in Object
+                    Oriented Programming, Java and web applications development.<br/>
+                </p>
+            </div>
         </div>
-        <h4 class="wow fadeInDown delay-03s">Informatics Technical Service</h4>
-        <span class="wow fadeInDown delay-03s">Nov, 2007 - Jan, 2009</span>
-        <p class="wow fadeInDown delay-03s"></p>
-      </div>
-      <div class="experience_details">
-        <h3 class="wow fadeInDown delay-03s">Senior Developer</h3>
-        <p class="wow fadeInDown delay-03s">
-	&#8226  Software development using PHP and MySQL<br/>
-	&#8226  Staff training in PHP and Object Oriented Programming<br/>
-	&#8226  Maintenance of legacy systems developed in C Builder<br/>
-	<br/>
-	<strong>Some projects and achievements:</strong><br/> 
-	&#8226 Led the development of a new online enrollment system and reduced the on-site enrollment from more than 70% to less than 10% of the students.<br/>
-	</p>
 
-      </div>
-    </div>
+        <div class="experience_section clearfix">
+            <div class="experience_area">
+                <div class="experience_box wow fadeInDown delay-03s">
+                    <img src="img/logo-unesp.png" alt="UNESP">
 
-    <div class="experience_section clearfix">
-      <div class="experience_area">
-        <div class="experience_box wow fadeInDown delay-03s">
-          <img src="img/logo-altoastral-trans.png" alt="Editora Alto Astral">
-          
+                </div>
+                <h4 class="wow fadeInDown delay-03s">Informatics Technical Service</h4>
+                <span class="wow fadeInDown delay-03s">Nov, 2007 - Jan, 2009</span>
+                <p class="wow fadeInDown delay-03s"></p>
+            </div>
+            <div class="experience_details">
+                <h3 class="wow fadeInDown delay-03s">Senior Developer</h3>
+                <p class="wow fadeInDown delay-03s">
+                    &#8226 Software development using PHP and MySQL<br/>
+                    &#8226 Staff training in PHP and Object Oriented Programming<br/>
+                    &#8226 Maintenance of legacy systems developed in C Builder<br/>
+                    <br/>
+                    <strong>Some projects and achievements:</strong><br/>
+                    &#8226 Led the development of a new online enrollment system and reduced the
+                    on-site enrollment from more than 70% to less than 10% of the students.<br/>
+                </p>
+
+            </div>
         </div>
-        <h4 class="wow fadeInDown delay-03s">Web & Marketing Department</h4>
-        <span class="wow fadeInDown delay-03s">Aug, 2003 - Oct, 2007</span>
-        <p class="wow fadeInDown delay-03s"></p>
-      </div>
-      <div class="experience_details">
-        <h3 class="wow fadeInDown delay-03s">Web Developer</h3>
-        <p class="wow fadeInDown delay-03s">
-        &#8226 Development of websites and web applications<br/>
-        &#8226 Technologies used include: Java, PHP, ASP, AppleScript, ActionScript, JavaScript, Ajax, MySQL, PostgreSQL and Oracle databases<br/>
-        &#8226 Systems integration using SOAP webservices<br/>
-        &#8226 Development of Macromedia Dreamweaver extensions to improve productivity<br/>
-        
-        <br/><strong>Some projects and achievements:</strong><br/>
-        &#8226 Developed an ecommerce platform to sell more than 100 products, including magazines, subscriptions and digital products.<br/>
-	&#8226 Created and optimized websites with more than 1,200,000 visitors per month.<br/>
-	&#8226 Completely remodeled the way websites were maintained through the development of Content Management Systems (CMS) combined with an integrated task management tool.<br/>
-	&#8226 Worked in a remote collaboration software designed to help magazine designers and writers to work in parallel, highly improving the company productivity.<br/>
+
+        <div class="experience_section clearfix">
+            <div class="experience_area">
+                <div class="experience_box wow fadeInDown delay-03s">
+                    <img src="img/logo-altoastral-trans.png" alt="Editora Alto Astral">
+
+                </div>
+                <h4 class="wow fadeInDown delay-03s">Web & Marketing Department</h4>
+                <span class="wow fadeInDown delay-03s">Aug, 2003 - Oct, 2007</span>
+                <p class="wow fadeInDown delay-03s"></p>
+            </div>
+            <div class="experience_details">
+                <h3 class="wow fadeInDown delay-03s">Web Developer</h3>
+                <p class="wow fadeInDown delay-03s">
+                    &#8226 Development of websites and web applications<br/>
+                    &#8226 Technologies used include: Java, PHP, ASP, AppleScript, ActionScript,
+                    JavaScript, Ajax, MySQL, PostgreSQL and Oracle databases<br/>
+                    &#8226 Systems integration using SOAP webservices<br/>
+                    &#8226 Development of Macromedia Dreamweaver extensions to improve
+                    productivity<br/>
+
+                    <br/><strong>Some projects and achievements:</strong><br/>
+                    &#8226 Developed an ecommerce platform to sell more than 100 products, including
+                    magazines, subscriptions and digital products.<br/>
+                    &#8226 Created and optimized websites with more than 1,200,000 visitors per
+                    month.<br/>
+                    &#8226 Completely remodeled the way websites were maintained through the
+                    development of Content Management Systems (CMS) combined with an integrated task
+                    management tool.<br/>
+                    &#8226 Worked in a remote collaboration software designed to help magazine
+                    designers and writers to work in parallel, highly improving the company
+                    productivity.<br/>
 
 
-	</p>
-      </div>
+                </p>
+            </div>
+        </div>
+
     </div>
-    
-  </div>
 </section>
 <!--/experience-->
 
 <!--skills-->
-<section  id="education">
-  <div class="container">
-    <h2>Education</h2>
-    <h6>Academic background, research and training.</h6>
-    <div class="education_wrapper">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="education_block">
-            <div class="education_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-graduation-cap"></i></span> </div>
-            <h3 class="animated fadeInUp wow">Masters in Computer Science</h3>
-            <p class="animated fadeInDown wow">
-                &#8226 São Paulo State University<br/>
-                &#8226 Completed in <strong>2015</strong><br/>
-                &#8226 Major field: <strong>Computer Systems</strong><br/>
-                &#8226 Research: <strong>Image Processing and Computer Vision</strong><br/>
-            </p>
-            <h3 class="animated fadeInUp wow">Graduate Diploma in Information Technology</h3>
-            <p class="animated fadeInDown wow">
-                &#8226 São Paulo State University<br/>
-                &#8226 Completed in <strong>2007</strong><br/>
-            </p>
-            <h3 class="animated fadeInUp wow">Bachelor's Degree in Informatics</h3>
-            <p class="animated fadeInDown wow">
-                &#8226 FATEC Technology College <br/>
-                &#8226 Completed in <strong>2004</strong><br/>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 borderLeft">			
-          <div class="education_block">
-            <div class="education_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-flask"></i></span> </div>
-            <h3 class="animated fadeInUp wow">DBVis</h3>
-            <p class="animated fadeInDown wow">
-                A system developed during my Masters combining <strong>Virtual Reality</strong> environments, <strong>mobile devices</strong>, 
-                and <strong>Information Visualization</strong> techniques to enable
-                visualization and exploration of large relational datasets by multiple users in a collaborative way.<br/>
-          	<iframe style="padding:5px;" src="https://www.youtube.com/embed/5-6qXbyWPMk" frameborder="0" allowfullscreen></iframe>
-		<br/>
-		This research was presented in the <strong>2014 18th International Conference on Information Visualisation</strong> (Paris, France)  
-                and it was published by <strong>IEEE</strong>. Download the full paper <a href="other/viz2014paper.pdf" target="_blank">here</a>.
-            </p>
-            <h3 class="animated fadeInUp wow">Other publications</h3>
-            <p class="animated fadeInDown wow">
-            2015<br/>
-	    <strong>&#8226 An Immersive and Interactive Visualization System by Integrating Distinct Platforms</strong>, 2015 19th International Conference on Information Visualisation (Barcelona, Spain)<br/>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 borderLeft">
-          <div class="education_block">
-            <div class="education_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-laptop"></i></span> </div>
-            <h3 class="animated fadeInUp wow">Short Courses</h3>
-            <p class="animated fadeInDown wow">
-		<!--2013<br/>-->
-		<strong>&#8226 SOA Foundation</strong> (44h)<br/>
-		<strong>&#8226 Integration Specialist</strong> (56h)<br/>
-		<strong>&#8226 Process Engineer</strong> (44h)<br/>
-		<!--<br/>2012<br/>-->
-		<strong>&#8226 Application Lifecycle Management and Testing</strong> (40h)<br/>
-		<strong>&#8226 Software Architecture Foundations and Techniques</strong> (40h)<br/>
-		<strong>&#8226 Advanced Architectures using Java</strong> (40h)<br/>
-		<!--<br/>2011<br/>-->
-		<strong>&#8226 PostgreSQL 9 Administrator</strong> (32h)<br/>
-		<strong>&#8226 Business Analyst</strong> (14h)<br/>				
-		<!--<br/>2005<br/>-->
-		<strong>&#8226 Java Programming</strong> (40h)<br/>
-		<!--<br/>2004<br/>-->
-		<strong>&#8226 Oracle 9i: SQL</strong> (40h)<br/>
-	    </p>
-	    <h3 class="animated fadeInUp wow">Events</h3>
-	        <p class="animated fadeInDown wow">
-		   <strong>&#8226 JavaOne Latin America 2016</strong><br/>
-		   <strong>&#8226 JavaOne Latin America 2015</strong><br/>
-		   <strong>&#8226 AWS Summit 2019</strong><br/>
-		</p>
-	    </h3>
-          </div>
-        </div>
-      </div>
-	   
-    </div>
+<section id="education">
+    <div class="container">
+        <h2>Education</h2>
+        <h6>Academic background, research and training.</h6>
+        <div class="education_wrapper">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="education_block">
+                        <div class="education_icon delay-03s animated wow  zoomIn"><span><i
+                                class="fa fa-graduation-cap"></i></span></div>
+                        <h3 class="animated fadeInUp wow">Masters in Computer Science</h3>
+                        <p class="animated fadeInDown wow">
+                            &#8226 São Paulo State University<br/>
+                            &#8226 Completed in <strong>2015</strong><br/>
+                            &#8226 Major field: <strong>Computer Systems</strong><br/>
+                            &#8226 Research: <strong>Image Processing and Computer
+                            Vision</strong><br/>
+                        </p>
+                        <h3 class="animated fadeInUp wow">Graduate Diploma in Information
+                            Technology</h3>
+                        <p class="animated fadeInDown wow">
+                            &#8226 São Paulo State University<br/>
+                            &#8226 Completed in <strong>2007</strong><br/>
+                        </p>
+                        <h3 class="animated fadeInUp wow">Bachelor's Degree in Informatics</h3>
+                        <p class="animated fadeInDown wow">
+                            &#8226 FATEC Technology College <br/>
+                            &#8226 Completed in <strong>2004</strong><br/>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 borderLeft">
+                    <div class="education_block">
+                        <div class="education_icon icon2  delay-03s animated wow zoomIn"><span><i
+                                class="fa fa-flask"></i></span></div>
+                        <h3 class="animated fadeInUp wow">DBVis</h3>
+                        <p class="animated fadeInDown wow">
+                            A system developed during my Masters combining <strong>Virtual
+                            Reality</strong> environments, <strong>mobile devices</strong>,
+                            and <strong>Information Visualization</strong> techniques to enable
+                            visualization and exploration of large relational datasets by multiple
+                            users in a collaborative way.<br/>
+                            <iframe style="padding:5px;"
+                                    src="https://www.youtube.com/embed/5-6qXbyWPMk" frameborder="0"
+                                    allowfullscreen></iframe>
+                            <br/>
+                            This research was presented in the <strong>2014 18th International
+                            Conference on Information Visualisation</strong> (Paris, France)
+                            and it was published by <strong>IEEE</strong>. Download the full paper
+                            <a href="other/viz2014paper.pdf" target="_blank">here</a>.
+                        </p>
+                        <h3 class="animated fadeInUp wow">Other publications</h3>
+                        <p class="animated fadeInDown wow">
+                            2015<br/>
+                            <strong>&#8226 An Immersive and Interactive Visualization System by
+                                Integrating Distinct Platforms</strong>, 2015 19th International
+                            Conference on Information Visualisation (Barcelona, Spain)<br/>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 borderLeft">
+                    <div class="education_block">
+                        <div class="education_icon icon3  delay-03s animated wow zoomIn"><span><i
+                                class="fa fa-laptop"></i></span></div>
+                        <h3 class="animated fadeInUp wow">Short Courses</h3>
+                        <p class="animated fadeInDown wow">
+                            <!--2013<br/>-->
+                            <strong>&#8226 SOA Foundation</strong> (44h)<br/>
+                            <strong>&#8226 Integration Specialist</strong> (56h)<br/>
+                            <strong>&#8226 Process Engineer</strong> (44h)<br/>
+                            <!--<br/>2012<br/>-->
+                            <strong>&#8226 Application Lifecycle Management and Testing</strong>
+                            (40h)<br/>
+                            <strong>&#8226 Software Architecture Foundations and Techniques</strong>
+                            (40h)<br/>
+                            <strong>&#8226 Advanced Architectures using Java</strong> (40h)<br/>
+                            <!--<br/>2011<br/>-->
+                            <strong>&#8226 PostgreSQL Administrator</strong> (32h)<br/>
+                            <strong>&#8226 Business Analyst</strong> (14h)<br/>
+                            <!--<br/>2005<br/>-->
+                            <strong>&#8226 Java Programming</strong> (40h)<br/>
+                            <!--<br/>2004<br/>-->
+                            <strong>&#8226 Oracle SQL</strong> (40h)<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-  </div>
+        </div>
+
+    </div>
 </section>
 <!--skills-->
 
 
 <!--Footer-->
 <footer class="footer_wrapper" id="contact">
-  <div class="container">
-    <section class="page_section contact" id="contact">
-      <div class="contact_section">
-        <h2>Contact Me</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            
-          </div>
-          <div class="col-lg-4">
-           
-          </div>
-          <div class="col-lg-4">
-          
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 wow fadeInLeft">	
-		 <div class="contact_info">
-                            <div class="detail">
-							<p>
-								<b>Alessandro Moraes</b>
-								<br/>Brisbane, Australia
-							</p>
-                                <h4>Email me</h4>
-                                <p>amoraesdev@gmail.com</p>
+    <div class="container">
+        <section class="page_section contact" id="contact">
+            <div class="contact_section">
+                <h2>Contact Me</h2>
+                <div class="row">
+                    <div class="col-lg-4">
 
-                                <div class="work_bottom"> <a href="https://www.linkedin.com/in/alessandrocmoraes" target="_blank" class="contact_btn">My LinkedIn</a> </div>
-                            </div> 
+                    </div>
+                    <div class="col-lg-4">
+
+                    </div>
+                    <div class="col-lg-4">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 wow fadeInLeft">
+                    <div class="contact_info">
+                        <div class="detail">
+                            <p>
+                                <b>Alessandro Moraes</b>
+                                <br/>Brisbane, Australia
+                            </p>
+                            <h4>Email me</h4>
+                            <p>amoraesdev@gmail.com</p>
+
+                            <div class="work_bottom"><a
+                                    href="https://www.linkedin.com/in/alessandrocmoraes"
+                                    target="_blank" class="contact_btn">My LinkedIn</a></div>
                         </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <div class="container">
+        <div class="footer_bottom">
+            <span></span>
         </div>
-
-      </div>
-
-    </section>
-  </div>
-
-  <div class="container">
-      <div class="footer_bottom">
-          <span></span>
-      </div>
-  </div>
+    </div>
 </footer>
 
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.nav.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/imagelightbox.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 
