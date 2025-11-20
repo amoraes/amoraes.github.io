@@ -1,0 +1,13 @@
+[
+{"numero":5, "modulo":7,  "kb":310,  "bpm": 72,  "bpmFigura":"4",  "compassoSuperior":4,  "compassoInferior":4, "versao":1, "data":20160504},
+{"numero":6, "modulo":7,  "kb":280,  "bpm": 72,  "bpmFigura":"4",  "compassoSuperior":4,  "compassoInferior":4, "versao":1, "data":20160504},
+{"numero":8, "modulo":7,  "kb":450,  "bpm": 72,  "bpmFigura":"4",  "compassoSuperior":4,  "compassoInferior":4, "versao":1, "data":20160504},
+{"numero":16, "modulo":7,  "kb":200,  "bpm": 50,  "bpmFigura":"2",  "compassoSuperior":2,  "compassoInferior":2, "versao":1, "data":20160504},
+{"numero":2, "modulo":8,  "kb":315,  "bpm": 76,  "bpmFigura":"4",  "compassoSuperior":4,  "compassoInferior":4, "versao":1, "data":20160504},
+{"numero":5, "modulo":8,  "kb":265,  "bpm": 72,  "bpmFigura":"4",  "compassoSuperior":4,  "compassoInferior":4, "versao":1, "data":20160504},
+{"numero":8, "modulo":8,  "kb":630,  "bpm": 60,  "bpmFigura":"4",  "compassoSuperior":4,  "compassoInferior":4, "versao":1, "data":20160504},
+{"numero":9, "modulo":8,  "kb":380,  "bpm": 60,  "bpmFigura":"4",  "compassoSuperior":4,  "compassoInferior":4, "versao":1, "data":20160504},
+{"numero":7, "modulo":9,  "kb":480,  "bpm": 60,  "bpmFigura":"4",  "compassoSuperior":2,  "compassoInferior":4, "versao":1, "data":20160104},
+{"numero":4, "modulo":10,  "kb":500,  "bpm": 66,  "bpmFigura":"4",  "compassoSuperior":4,  "compassoInferior":4, "versao":1, "data":20160104},
+{"numero":5, "modulo":10,  "kb":120,  "bpm": 66,  "bpmFigura":"4",  "compassoSuperior":4,  "compassoInferior":4, "versao":1, "data":20160104}
+]
